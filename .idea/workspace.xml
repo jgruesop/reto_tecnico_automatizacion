@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5472338-794d-4040-b5d0-5d83bab0e0c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/OpenUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestCommunityPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/utest/reto/automatizacion/runners/RunnerTags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/utest/reto/automatizacion/stepdefinitions/UtestStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/automatizacionUtest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/model/UtestSectionOneData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/Access.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/RegisterSectionFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/RegisterSectionOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/RegisterSectionThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/RegisterSectionTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestAccessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestRegisterSectionFourPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestRegisterSectionOnePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestRegisterSectionThreePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestRegisterSectionTwoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utest/reto/automatizacion/stepdefinitions/UtestStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utest/reto/automatizacion/stepdefinitions/UtestStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/automatizacionUtest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/automatizacionUtest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +50,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/Users/Q-USER/OneDrive - Universidad Nacional Abierta y a Distancia/PRUEBA EMPRESAS/PRUEBA CHOUCAIR/ANALISTA FINANCIAL/RetoTecnicoAutomatizacion/src/main/java/com/utest/reto/automatizacion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Q-USER/OneDrive - Universidad Nacional Abierta y a Distancia/PRUEBA EMPRESAS/PRUEBA CHOUCAIR/ANALISTA FINANCIAL/RetoTecnicoAutomatizacion/src/main/java/com/utest/reto/automatizacion&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.utest.reto.automatizacion.userinterface" />
       <recent name="com.utest.reto.automatizacion.tasks" />
+      <recent name="com.utest.reto.automatizacion.userinterface" />
     </key>
   </component>
   <component name="RunManager">
@@ -109,5 +114,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RetoTecnicoAutomatizacion$RunnerTags.ic" NAME="RunnerTags Coverage Results" MODIFIED="1661067880050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
