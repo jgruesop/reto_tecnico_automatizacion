@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5472338-794d-4040-b5d0-5d83bab0e0c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/model/UtestSectionOneData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/Access.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/RegisterSectionFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/RegisterSectionOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/RegisterSectionThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/tasks/RegisterSectionTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestAccessPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestRegisterSectionFourPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestRegisterSectionOnePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestRegisterSectionThreePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utest/reto/automatizacion/userinterface/UtestRegisterSectionTwoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/utest/reto/automatizacion/stepdefinitions/UtestStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utest/reto/automatizacion/stepdefinitions/UtestStepDefinitions.java" afterDir="false" />
+    <list default="true" id="f5472338-794d-4040-b5d0-5d83bab0e0c7" name="Changes" comment="Finalización del registro automatizado con WHEN relacion Tasks, utilizando Selenity Screenplay con Cocumbre">
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/automatizacionUtest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/automatizacionUtest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,6 +88,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660977923038</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finalización del registro automatizado con WHEN relacion Tasks, utilizando Selenity Screenplay con Cocumbre">
+      <created>1661068591862</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661068591862</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +108,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finalización del registro automatizado con WHEN relacion Tasks, utilizando Selenity Screenplay con Cocumbre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalización del registro automatizado con WHEN relacion Tasks, utilizando Selenity Screenplay con Cocumbre" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RetoTecnicoAutomatizacion$RunnerTags.ic" NAME="RunnerTags Coverage Results" MODIFIED="1661067880050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
