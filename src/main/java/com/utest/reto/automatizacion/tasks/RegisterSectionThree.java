@@ -6,6 +6,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.actions.SelectFromOptions;
 
 public class RegisterSectionThree implements Task {
 
@@ -25,12 +26,15 @@ public class RegisterSectionThree implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(//Click.on(UtestRegisterSectionThreePage.SELECT_MOBILE),
-                //Enter.theValue(mobileDevice).into(UtestRegisterSectionThreePage.INPUT_MOBILE),
-                //Click.on(UtestRegisterSectionThreePage.SELECT_MODEL),
-                //Enter.theValue(model).into(UtestRegisterSectionThreePage.INPUT_MODEL),
-                //Click.on(UtestRegisterSectionThreePage.SELECT_OS),
-                //Enter.theValue(operatingSystem).into(UtestRegisterSectionThreePage.INPUT_OS),
+        actor.attemptsTo(Click.on(UtestRegisterSectionThreePage.SELECT_INPUT_MOBILE),
+                Enter.theValue(mobileDevice).into(UtestRegisterSectionThreePage.INPUT_MOBILE),
+                Click.on(UtestRegisterSectionThreePage.SELECT_LIST_MOBILE),
+                Click.on(UtestRegisterSectionThreePage.SELECT_INPUT_MODEL),
+                Enter.theValue(model).into(UtestRegisterSectionThreePage.INPUT_MODEL),
+                Click.on(UtestRegisterSectionThreePage.SELECT_LIST_MODEL),
+                Click.on(UtestRegisterSectionThreePage.SELECT_INPUT_OS),
+                Enter.theValue(operatingSystem).into(UtestRegisterSectionThreePage.INPUT_OS),
+                Click.on(UtestRegisterSectionThreePage.SELECT_LIST_OS),
                 Click.on(UtestRegisterSectionThreePage.BUTTON_NEXT)
         );
     }

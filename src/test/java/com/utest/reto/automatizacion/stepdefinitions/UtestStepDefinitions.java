@@ -1,6 +1,6 @@
 package com.utest.reto.automatizacion.stepdefinitions;
 
-import com.utest.reto.automatizacion.model.UtestSectionOneData;
+import com.utest.reto.automatizacion.model.UtestPersonaData;
 import com.utest.reto.automatizacion.tasks.*;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -22,21 +22,20 @@ public class UtestStepDefinitions {
         OnStage.theActorCalled("Jhon").wasAbleTo(OpenUp.thePage(), (Access.OnthePage()));
     }
 
-    @When("^he registers to the utest community he can count on the support of experienced$")
-    public void heRegistersToTheUtestCommunityHeCanCountOnTheSupportOfExperienced(List<UtestSectionOneData> utestData)
-            throws Exception {
+    @When("^he registers to the utest community he can count on the support of people experienced$")
+    public void heRegistersToTheUtestCommunityHeCanCountOnTheSupportOfPeopleExperienced(List<UtestPersonaData> utestPersonaData) {
         OnStage.theActorInTheSpotlight().attemptsTo(RegisterSectionOne
-                .the(utestData.get(0).getFirstName(), utestData.get(0).getLastName(), utestData.get(0).getEmail(),
-                        utestData.get(0).getMonth(), utestData.get(0).getDay(), utestData.get(0).getYear(),
-                        utestData.get(0).getLanguages()));
+                .the(utestPersonaData.get(0).getFirstName(), utestPersonaData.get(0).getLastName(), utestPersonaData.get(0).getEmail(),
+                        utestPersonaData.get(0).getMonth(), utestPersonaData.get(0).getDay(), utestPersonaData.get(0).getYear(),
+                        utestPersonaData.get(0).getLanguages()));
 
         OnStage.theActorInTheSpotlight().attemptsTo(RegisterSectionTwo
-                .the(utestData.get(0).getCity(), utestData.get(0).getZipCode(), utestData.get(0).getCountry()));
+                .the(utestPersonaData.get(0).getCity(), utestPersonaData.get(0).getZipCode(), utestPersonaData.get(0).getCountry()));
 
         OnStage.theActorInTheSpotlight().attemptsTo(RegisterSectionThree
-                .the(utestData.get(0).getMobileDevice(), utestData.get(0).getModel(), utestData.get(0).getOperatingSystem()));
+                .the(utestPersonaData.get(0).getMobileDevice(), utestPersonaData.get(0).getModel(), utestPersonaData.get(0).getOperatingSystem()));
 
-        OnStage.theActorInTheSpotlight().attemptsTo(RegisterSectionFour.the(utestData.get(0).getPassword(), utestData.get(0).getConfirmPassword()));
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterSectionFour.the(utestPersonaData.get(0).getPassword(), utestPersonaData.get(0).getConfirmPassword()));
     }
 
     @Then("^he can register to the utest community\\.$")

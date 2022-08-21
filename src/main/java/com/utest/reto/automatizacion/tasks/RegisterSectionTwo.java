@@ -25,10 +25,12 @@ public class RegisterSectionTwo implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue(city).into(UtestRegisterSectionTwoPage.INPUT_CITY),
+        actor.attemptsTo(Click.on(UtestRegisterSectionTwoPage.SELECT_INPUT_COUNTRY),
+                Enter.theValue(country).into(UtestRegisterSectionTwoPage.INPUT_COUNTRY),
+                Click.on(UtestRegisterSectionTwoPage.SELECT_LIST_COUNTRY),
+                Enter.theValue(city).into(UtestRegisterSectionTwoPage.INPUT_CITY),
                 Click.on(UtestRegisterSectionTwoPage.SELECT_CITY),
                 Enter.theValue(zipCode).into(UtestRegisterSectionTwoPage.INPUT_ZIP_CODE),
-                //Enter.theValue(country).into(UtestRegisterSectionTwoPage.INPUT_COUNTRY),
                 Click.on(UtestRegisterSectionTwoPage.BUTTON_NEXT)
         );
     }

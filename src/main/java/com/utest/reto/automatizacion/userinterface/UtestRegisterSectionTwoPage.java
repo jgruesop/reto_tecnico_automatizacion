@@ -18,9 +18,17 @@ public class UtestRegisterSectionTwoPage extends PageObject {
             .the("where do we write the zip code")
             .located(By.id("zip"));
 
+    public static final Target SELECT_INPUT_COUNTRY = Target
+            .the("select input country")
+            .located(By.name("countryId"));
+
     public static final Target INPUT_COUNTRY = Target
             .the("where do we write the country")
             .located(By.xpath("//input[contains(@placeholder,'Select a country')]"));
+
+    public static final Target SELECT_LIST_COUNTRY = Target
+            .the("select country highlight")
+            .located(By.xpath("//span[contains(@class,'ui-select-highlight')]"));
 
     public static final Target BUTTON_NEXT = Target
             .the("Click to continue to the next form")

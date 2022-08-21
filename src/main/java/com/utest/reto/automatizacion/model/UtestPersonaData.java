@@ -1,6 +1,6 @@
 package com.utest.reto.automatizacion.model;
 
-public class UtestSectionOneData {
+public class UtestPersonaData {
     private String firstName;
     private String lastName;
     private String email;
@@ -8,24 +8,14 @@ public class UtestSectionOneData {
     private String day;
     private String year;
     private String languages;
-
     private String city;
-
     private String zipCode;
-
     private String country;
-
     private String mobileDevice;
-
     private String model;
-
     private String operatingSystem;
-
     private String password;
-
     private String confirmPassword;
-
-
 
     /**
      *
