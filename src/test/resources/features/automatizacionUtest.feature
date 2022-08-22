@@ -9,7 +9,7 @@ Feature: Community Utest
 
     When he registers to the utest community he can count on the support of people experienced
       |  firstName  |   lastName    |       email         |  month  | day | year | languages |  city  | zipCode | country  | mobileDevice |  model   | operatingSystem  | password   | confirmPassword |
-      | Joe Stefan  | Arias Torres  |   test13@mail.com   | January |  5  | 1900 |  Spanish  |  Cali  | 762522  | Colombia |     Apple    | iPhone 5 |    iOS 11.0.2    | 12345aBCD. |   12345aBCD.    |
+      | Joe Stefan  | Arias Torres  |   testing@mail.com   | January |  5  | 1900 |  Spanish  |  Cali  | 762522  | Colombia |     Apple    | iPhone 5 |    iOS 11.0.2    | 12345aBCD. |   12345aBCD.    |
 
     Then he can register to the utest community.
       | question   |
