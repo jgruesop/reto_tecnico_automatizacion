@@ -10,4 +10,8 @@ public class UtestAccessPage extends PageObject {
             .the("button to access the registration form")
             .located(By.xpath("//*[contains(text(),'Join Today')]")
             );
+
+    public static final Target END_REGISTER = Target
+            .the("validate the if word join today")
+            .located(By.xpath("//a[contains(text(),'Join Today')]"));
 }

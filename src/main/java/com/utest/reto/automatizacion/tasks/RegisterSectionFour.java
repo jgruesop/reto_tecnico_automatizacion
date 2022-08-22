@@ -9,8 +9,8 @@ import net.serenitybdd.screenplay.actions.Enter;
 
 public class RegisterSectionFour implements Task {
 
-    private String password;
-    private String confirmPassword;
+    private final String password;
+    private final String confirmPassword;
 
     public RegisterSectionFour(String password, String confirmPassword) {
         this.password = password;
@@ -23,7 +23,8 @@ public class RegisterSectionFour implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue(password).into(UtestRegisterSectionFourPage.INPUT_PASS),
+        actor.attemptsTo(
+                Enter.theValue(password).into(UtestRegisterSectionFourPage.INPUT_PASS),
                 Enter.theValue(confirmPassword).into(UtestRegisterSectionFourPage.INPUT_CONFIRM_PASS),
                 Click.on(UtestRegisterSectionFourPage.CHECKBOX_TERMS),
                 Click.on(UtestRegisterSectionFourPage.CHECKBOX_PRIVACY),

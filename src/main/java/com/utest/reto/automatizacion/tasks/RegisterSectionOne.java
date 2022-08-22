@@ -9,13 +9,13 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 
 public class RegisterSectionOne implements Task {
-    private String firstName;
-    private String lastName;
-    private String email;
-    private String month;
-    private String day;
-    private String year;
-    private String languages;
+    private final String firstName;
+    private final String lastName;
+    private final String email;
+    private final String month;
+    private final String day;
+    private final String year;
+    private final String languages;
 
     public RegisterSectionOne(String firstName, String lastName, String email, String month,
                               String day, String year, String languages) {
@@ -36,7 +36,8 @@ public class RegisterSectionOne implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue(firstName).into(UtestRegisterSectionOnePage.INPUT_FIRST_NAME),
+        actor.attemptsTo(
+                Enter.theValue(firstName).into(UtestRegisterSectionOnePage.INPUT_FIRST_NAME),
                 Enter.theValue(lastName).into(UtestRegisterSectionOnePage.INPUT_LAST_NAME),
                 Enter.theValue(email).into(UtestRegisterSectionOnePage.INPUT_EMAIL),
                 SelectFromOptions.byVisibleText(month).from(UtestRegisterSectionOnePage.INPUT_MONTH),

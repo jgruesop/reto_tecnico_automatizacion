@@ -22,7 +22,7 @@ public class UtestRegisterSectionFourPage extends PageObject {
             .the("read and accept the privacy and security")
             .located(By.id("privacySetting"));
 
-    public static final Target BUTTON_END = Target
+        public static final Target BUTTON_END = Target
             .the("Click to continue to the next form")
             .located(By.xpath("//*[contains(@class, 'btn btn-blue')]"));
 }

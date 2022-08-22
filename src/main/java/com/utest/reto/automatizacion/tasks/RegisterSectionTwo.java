@@ -9,9 +9,9 @@ import net.serenitybdd.screenplay.actions.Enter;
 
 public class RegisterSectionTwo implements Task {
 
-    private String city;
-    private String zipCode;
-    private String country;
+    private final String city;
+    private final String zipCode;
+    private final String country;
 
     public RegisterSectionTwo(String city, String zipCode, String country) {
         this.city = city;
@@ -25,7 +25,8 @@ public class RegisterSectionTwo implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Click.on(UtestRegisterSectionTwoPage.SELECT_INPUT_COUNTRY),
+        actor.attemptsTo(
+                Click.on(UtestRegisterSectionTwoPage.SELECT_INPUT_COUNTRY),
                 Enter.theValue(country).into(UtestRegisterSectionTwoPage.INPUT_COUNTRY),
                 Click.on(UtestRegisterSectionTwoPage.SELECT_LIST_COUNTRY),
                 Enter.theValue(city).into(UtestRegisterSectionTwoPage.INPUT_CITY),

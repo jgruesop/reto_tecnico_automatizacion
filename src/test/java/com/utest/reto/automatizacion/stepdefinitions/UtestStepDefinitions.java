@@ -1,11 +1,13 @@
 package com.utest.reto.automatizacion.stepdefinitions;
 
 import com.utest.reto.automatizacion.model.UtestPersonaData;
+import com.utest.reto.automatizacion.questions.Answer;
 import com.utest.reto.automatizacion.tasks.*;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
@@ -39,7 +41,7 @@ public class UtestStepDefinitions {
     }
 
     @Then("^he can register to the utest community\\.$")
-    public void heCanRegisterToTheUtestCommunity() {
-
+    public void heCanRegisterToTheUtestCommunity(List<UtestPersonaData> utestPersonaData) {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(utestPersonaData.get(0).getQuestion())));
     }
 }

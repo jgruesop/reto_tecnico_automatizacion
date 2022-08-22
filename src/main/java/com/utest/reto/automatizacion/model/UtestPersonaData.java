@@ -16,6 +16,41 @@ public class UtestPersonaData {
     private String operatingSystem;
     private String password;
     private String confirmPassword;
+    private String question;
+
+    private String question2;
+
+    /**
+     *
+     * @return question2;
+     */
+    public String getQuestion2() {
+        return question2;
+    }
+
+    /**
+     *
+     * @param question2
+     */
+    public void setQuestion2(String question2) {
+        this.question2 = question2;
+    }
+
+    /**
+     *
+     * @return question
+     */
+    public String getQuestion() {
+        return question;
+    }
+
+    /**
+     *
+     * @param question
+     */
+    public void setQuestion(String question) {
+        this.question = question;
+    }
 
     /**
      *
